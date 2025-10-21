@@ -4097,8 +4097,6 @@ key 是 idx_abc，表明 a=1,c=1,b=1 会使用联合索引。
 
 memo：2025 年 4 月 8 日修改至此，今天有球友反馈说，拿到了鹅厂和美团的暑期实习 offer，并且都已经 OC，真的恭喜，又是一个值得晒成绩的日子，哈哈。
 
-![球友拿到了腾讯和美团的 offer](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250408155951.png)
-
 ## 锁
 
 ### 53.🌟MySQL 中有哪几种锁？
