@@ -1,6 +1,11 @@
+# 忽略所有 Obsidian 配置
+.obsidian/
 
-/.obsidian/community-plugins.json
-/.obsidian/appearance.json
-/.obsidian/core-plugins.json
-/.obsidian/plugins/obsidian-git/obsidian_askpass.sh
-/.obsidian/workspace.json
+# 忽略 Git 插件脚本
+obsidian_askpass.sh
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
