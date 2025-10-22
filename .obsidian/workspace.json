@@ -4,31 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "626e3c609bf139b4",
+        "id": "b5c639985d04734b",
         "type": "tabs",
         "children": [
           {
-            "id": "82eda74d9203d1fa",
+            "id": "4ffa15d03fb730bb",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: workspace.json"
-            }
-          },
-          {
-            "id": "5c1f49480c09f75c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Diff: .gitignore"
             }
           }
         ]
@@ -90,13 +80,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mysql.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "mysql 的大纲"
+              "title": "大纲"
             }
           }
         ]
@@ -190,7 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 504.5
+    "width": 540.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,7 +193,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "82eda74d9203d1fa",
+  "active": "4ffa15d03fb730bb",
   "lastOpenFiles": [
     "面试/面试文档.md",
     "面试/牛券.md",
