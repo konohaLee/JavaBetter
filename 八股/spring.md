@@ -67,16 +67,6 @@ IoC 控制反转是一种设计思想，它的主要作用是将对象的创建�
 
 不过说实话，Spring 的源码确实比较难啃，涉及的概念和技术点太多了。我一般是结合一些技术博客和 Claude 一起看，这样理解起来会相对容易一些。
 
-PS：关于这份小册的 PDF 版本，目前只有[星球](https://javabetter.cn/zhishixingqiu/)的用户可以获取，后续会考虑开放给大家。
-
-![楼仔的 Spring 源码解析手册](https://cdn.tobebetterjavaer.com/stutymore/spring-20241207101910.png)
-
-> 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的京东面经同学 5 Java 后端技术一面面试原题：IOC与AOP
-
-memo：2025 年 6 月 15 日修改至此，今天在帮[球友们修改简历](https://javabetter.cn/zhishixingqiu/jianli.html)的时候，碰到一个中山大学本硕的球友，校园荣誉基本上拉满了，非常优秀，那我也希望能够帮助到更多的球友们，帮他们拿到更好的 offer。
-
-![中山大学的球友](https://cdn.tobebetterjavaer.com/stutymore/spring-20250615120504.png)
-
 ### 2.Spring有哪些模块呢？
 
 我按照平时工作/学习中接触的频率来说一下。
@@ -137,9 +127,7 @@ public class BasicTest {
 
 ![技术派：技术选型](https://cdn.tobebetterjavaer.com/stutymore/spring-20250616105807.png)
 
-memo：2025 年 6 月 16 日修改至此，今天在帮[球友们修改简历](https://javabetter.cn/zhishixingqiu/jianli.html)的时候，碰到一个大连海事大学硕河南理工大学本的球友，他荣誉奖项里提到的优秀研究生、奖学金、英语四六级，我希望看到的同学也都能争取一下，不要把这些荣誉拱手让人，或者压根就不知道，或者不屑于去参加，到时候你简历上这一栏就会比较苍白。
 
-![大连海事大学硕河南理工大学本的球友](https://cdn.tobebetterjavaer.com/stutymore/spring-20250616110317.png)
 
 ### 3.Spring有哪些常用注解呢？
 
@@ -229,10 +217,6 @@ Spring 框架里面确实用了很多设计模式，我从平时工作中能观�
 > 3. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的同学 1 贝壳找房后端技术一面面试原题：Spring用了什么设计模式？
 > 4. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的快手同学 4 一面原题：Spring中使用了哪些设计模式，以其中一种模式举例说明？Spring如何实现单例模式？
 
-memo：2025 年 6 月 20 日修改至此，今天[帮球友修改简历](https://javabetter.cn/zhishixingqiu/jianli.html)的时候，有碰到重庆邮电大学本，电子科技大学硕的球友，期间还有过清华大学科研项目的经历，基本上也是把学历这块拉的满中满了，那希望星球能帮助到更多院校的同学，不管是工作党还是学生党，都希望大家都拿到更好的 offer。
-
-![重邮本，电子科技大学硕的球友](https://cdn.tobebetterjavaer.com/stutymore/spring-20250621062819.png)
-
 ### 5.Spring容器和Web容器之间的区别知道吗？（补充）
 
 >2024 年 7 月 11 日增补
@@ -301,7 +285,7 @@ public class QuickForumApplication {
 
 memo：2025 年 6 月 27 日修改至此，今天看到[有球友发的 offer 选择提问贴](https://javabetter.cn/zhishixingqiu/)，其中一个是杭州六小龙群核科技，我个人认为还是非常值得去的，毕竟是杭州的独角兽公司，薪资待遇都不错。
 
-![球友拿到了杭州群核科技的 offer](https://cdn.tobebetterjavaer.com/stutymore/spring-20250627103801.png)
+
 
 ### 6.你是怎么理解Bean的？
 
@@ -557,7 +541,7 @@ public class MyService {
 
 memo：2025 年 6 月 30 日修改至此。昨天有[读者发消息说有三个 offer 要选择](https://javabetter.cn/zhishixingqiu/)，中科大读博、中海油、商飞北研，问我该怎么选择？说实话，这三个都是非常优质的选择，我个人的建议是优先考虑中科大读博，毕竟是国内顶尖学府，博士毕业后可以选择在高校任教，会更符合他的家庭条件，当然了，我深知，读博的产出压力非常大。
 
-![读者拿到中科大读博、中海油、商飞北研](https://cdn.tobebetterjavaer.com/stutymore/spring-20250630101647.png)
+
 
 
 ### 8.Bean的作用域有哪些?
@@ -651,10 +635,6 @@ public class WebSocketHandler {
 ```
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的同学 1 贝壳找房后端技术一面面试原题：bean是单例还是多例的，具体怎么修改
-
-memo：2025 年 7 月 3 日修改至此，今天在[帮球友修改简历](https://javabetter.cn/zhishixingqiu/)的时候，碰到一个郑州大学硕，河北师范大学本的球友，整体在校的经历非常出色，奖学金、论文期刊基本上都拉满了。那这么多优秀的球友选择来到这里，也是对星球的又一次认可和肯定，我也一定会继续努力，提供更多优质的内容和服务。
-
-![郑州大学硕，河北师范大学本的球友](https://cdn.tobebetterjavaer.com/stutymore/spring-20250704144758.png)
 
 ### 9.Spring中的单例Bean会存在线程安全问题吗？
 
@@ -802,9 +782,7 @@ public class RequestScopedService {
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的阿里面经同学 1 闲鱼后端一面的原题：spring的bean的并发安全问题
 
-memo：2025 年 7 月 4 日修改至此，今天在[帮球友修改简历](https://javabetter.cn/zhishixingqiu/)的时候，碰到一个武汉理工大学本硕的球友。说真的，和武汉理工大学挺有缘的，2023 年去武汉，就线下见了一名武理的球友，[他当时签约的是小米](https://t.zsxq.com/LfG3B)，非常优秀。
 
-![武汉理工大学本硕的球友](https://cdn.tobebetterjavaer.com/stutymore/spring-2023.09-2026.06.png)
 
 ### 10.为什么IDEA不推荐使用@Autowired注解注入Bean？
 
@@ -898,9 +876,7 @@ private UserRepository2 userRepository21;
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的京东面经同学 9 面试原题：依赖注入的时候，直接Autowired比较直接，为什么推荐构造方法注入呢
 
-memo：2025 年 7 月 1 日修改至此，今天在[帮球友修改简历](https://javabetter.cn/zhishixingqiu/)的时候，碰到一个郑州大学本硕的球友，这也是我们河南省最好的大学了，但也仅仅是一所 211，所以希望所有河南的同学都能加把劲，证明自己的实力，去拿到更好的 offer，为校争光。
 
-![郑州大学本硕的球友](https://cdn.tobebetterjavaer.com/stutymore/spring-20250701154344.png)
 
 ### 11.@Autowired的实现原理了解吗？
 
@@ -1161,9 +1137,7 @@ public class DemoApplication {
 > 3. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的得物面经同学 9 面试题目原题：Spring源码看过吗？Spring的三级缓存知道吗？
 > 4. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的阿里云面经同学 22 面经：spring三级缓存解决循环依赖问题
 
-memo：2025 年 7 月 5 日修改至此。今天 [VIP 群](https://javabetter.cn/zhishixingqiu/)来了非常多的球友，不知不觉我们已经 12 群了，也是一个大家庭了，希望大家都能在这里找到自己的归属感，我们一起学习，一起进步。
 
-![二哥的编程星球已经 12 群了](https://cdn.tobebetterjavaer.com/stutymore/spring-20250705072809.png)
 
 ### 15.为什么需要三级缓存而不是两级？
 
@@ -1301,11 +1275,7 @@ Object cachedA = earlySingletonObjects.get("serviceA"); // 直接返回缓存的
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的快手同学 4 一面原题：循环依赖有了解过吗？出现循环依赖的原因？三大缓存存储内容的区别？如何解决循环依赖？如果缺少第二级缓存会有什么问题？
 
-<MZNXQRcodeBanner />
 
-memo：2024 年 7 月 11 日修改至此，今天在帮[球友们修改简历](https://javabetter.cn/zhishixingqiu/jianli.html)的时候，碰到北京交通大学本，北京航空航天大学硕的球友，她的简历上有很多校园荣誉奖项，像优秀学生、奖学金、英语四六级等，这些都是非常好的加分项。
-
-![北京交通大学本，北京航空航天大学硕的球友](https://cdn.tobebetterjavaer.com/stutymore/spring-20250621064205.png)
 
 ## IoC
 
@@ -1450,9 +1420,6 @@ public class UserServiceImpl implements UserService {
 > 4. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的京东面经同学 8 面试原题：IOC，AOP
 > 5. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的快手同学 4 一面原题：解释下什么是IOC和AOP？分别解决了什么问题？IOC和DI的区别？
 
-memo：2025 年 6 月 22 日修改至此，今天[有球友发喜报说拿到了两个 offer](https://javabetter.cn/zhishixingqiu/)，一个是做 B 端电商的，另一个是外企，主要做 Power BI 的低代码开发，我的建议是去外企，因为实习最重要的是混个 title，有更多的时间，可以去学习星球里的项目，其实会更实在。
-
-![球友拿到了外企和电商的 offer](https://cdn.tobebetterjavaer.com/stutymore/spring-二哥，目前拿到了两个offer。第一个是做b端电.png)
 
 ### 17.能说一下IoC的实现机制吗？
 
@@ -1749,9 +1716,7 @@ public class SimpleIoC {
 
 IoC 容器的核心是管理对象和依赖注入，首先定义注解，然后实现容器的三个核心方法：注册Bean、获取Bean、依赖注入；关键是用反射创建对象和注入依赖。
 
-memo：2025 年 6 月 23 日修改至此，今天[有球友发喜报说拿到了京东的社招 offer](https://javabetter.cn/zhishixingqiu/)，这真的要恭喜他，也希望所有看到这里的小伙伴都能有一个好的结果。
 
-![球友拿到京东社招 offer](https://cdn.tobebetterjavaer.com/stutymore/spring-20250623105438.png)
 
 ### 18.说说BeanFactory和ApplicantContext的区别?
 
@@ -1820,9 +1785,7 @@ public class ApplicationContextExample {
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的美团同学 2 优选物流调度技术 2 面面试原题：BeanFactory和ApplicationContext
 
-memo：2025 年 6 月 25 日修改至此，今天给一个华科本硕研 0 的[球友修改简历](https://javabetter.cn/zhishixingqiu/jianli.html)后，发来这样的感慨，要是早点知道你的[网站](https://javabetter.cn/home.html)和[星球](https://javabetter.cn/zhishixingqiu/)就好了，[技术派](https://javabetter.cn/zhishixingqiu/paicoding.html)不比外卖强多了？再次感谢二哥。
 
-![球友对星球相见恨晚](https://cdn.tobebetterjavaer.com/stutymore/spring-20250625111617.png)
 
 ### 19.🌟项目启动时Spring的IoC会做什么？
 
@@ -1908,11 +1871,7 @@ Spring 在实例化的时候会根据 Bean 的定义自动选择合适的方式�
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的华为面经同学 8 技术二面面试原题：说说 Spring 的 Bean 实例化方式
 > 2. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的美团同学 2 优选物流调度技术 2 面面试原题：bean加工有哪些方法？
 
-<MZNXQRcodeBanner />
 
-memo：2025 年 7 月 6 日修改至此，今天在星球里看到一个球友的[秋招打卡](https://javabetter.cn/zhishixingqiu/)，已经持续 30 天了，按照他这个节奏下去，互联网大厂的 offer 基本上就算是锁定了。并且还有准备 RAG MCP 的八股，很棒。
-
-![球友在星球里的秋招打卡记录](https://cdn.tobebetterjavaer.com/stutymore/spring-20250706070700.png)
 
 ## AOP
 
@@ -2381,9 +2340,6 @@ AOP 和 OOP 是互补的编程思想：
 > 6. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的美团面经同学 4 一面面试原题：Spring AOP发生在什么时候
 > 7. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的理想汽车面经同学 2 一面面试原题：Spring AOP的概念了解吗？AOP和 OOP 的关系？
 
-memo：2025 年 7 月 7 日修改至此，有球友提问要一个详细版的学习计划表，我用了一个早上的时间整理了一个三个月的冲刺计划，包括八股、算法、项目的安排，已经放在了[ Java 面试指南](https://javabetter.cn/zhishixingqiu/mianshi.html)中，需要的小伙伴可以自取做个参考。
-
-![学习计划表-三个月秋招冲刺计划](https://cdn.tobebetterjavaer.com/stutymore/spring-20250707153345.png)
 
 ### 21.🌟AOP的应用场景有哪些？
 
@@ -2432,9 +2388,6 @@ public @interface MdcDot {
 > 2. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的理想汽车面经同学 2 一面面试原题：AOP的使用场景有哪些？
 > 3. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的京东面经同学 9 面试原题：项目中的AOP是怎么用到的
 
-memo：2025 年 7 月 8 日修改至此，今天在星球的 VIP 群里又看到在吹[面渣逆袭](https://javabetter.cn/sidebar/sanfene/nixi.html)的，球友说美团、小红书八股都没问题，看二哥的足够。
-
-![吹二哥的面渣逆袭](https://cdn.tobebetterjavaer.com/stutymore/spring-20250708165006.png)
 
 ### 22.说说 Spring AOP 和 AspectJ 区别?
 
@@ -2764,11 +2717,7 @@ public class Client {
 > 8. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的快手同学 4 一面原题：Spring AOP的实现原理？JDK动态代理和CGLib动态代理的各自实现及其区别？现在需要统计方法的具体执行时间，说下如何使用AOP来实现？
 > 9. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的理想汽车面经同学 2 一面面试原题：了解AOP底层是怎么做的吗？
 
-<MZNXQRcodeBanner />
 
-memo：2025 年 7 月 10 日修改至此，今天在给球友修改简历的时候碰到一个[对星球非常认可的球友](https://javabetter.cn/zhishixingqiu/)，他在我的帮助下也顺利找到了实习，并且大家也可以看到，他提到的这些路线规划问题、简历书写问题、秋招准备问题、项目问题，都可以在星球里找到答案。
-
-![球友对星球的认可](https://cdn.tobebetterjavaer.com/stutymore/spring-20250711172049.png)
 
 ## 事务
 
@@ -2834,7 +2783,6 @@ public class AccountService {
 
 memo：2025 年 7 月 11 日修改至此，今天[有球友在 VIP 群里讲](https://javabetter.cn/zhishixingqiu/)，面渣逆袭的 Redis、MySQL、JVM 篇非常强；另外一个球友也是继续口碑说，面过几次全包过。😄
 
-![球友对面渣逆袭的认可](https://cdn.tobebetterjavaer.com/stutymore/spring-20250711174214.png)
 
 ### 26.声明式事务的实现原理了解吗？
 
@@ -2883,7 +2831,6 @@ public class TransactionInterceptor implements MethodInterceptor {
 
 memo：2025 年 7 月 15 日修改至此，今天在[给球友修改简历时](https://javabetter.cn/zhishixingqiu/jianli.html)，看到球友说简历修改后拿到了星环科技内推的实习机会，也学到了很多，并且真诚的感谢了 Java 方面的八股面试题对他的帮助。讲真，能看到大家最真实的反馈，我挺开心的。
 
-![星环实习的球友对星球服务的认可](https://cdn.tobebetterjavaer.com/stutymore/spring-20250715180830.png)
 
 ### 27.@Transactional在哪些情况下会失效？
 
@@ -2953,9 +2900,7 @@ public void process() throws Exception {
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的小米春招同学 K 一面面试原题：事务传播，protected 和 private 加事务会生效吗,还有那些不生效的情况
 
-memo：2025 年 7 月 16 日修改至此，今天在[给球友修改简历时](https://javabetter.cn/zhishixingqiu/jianli.html)，看到一个中国海洋大学本，四川大学硕的球友，非常优秀，基本上校园经历和荣誉奖项算是拉满了。能帮助到这么多优秀的球友，我也很开心。
 
-![中国海洋大学本，四川大学硕的球友](https://cdn.tobebetterjavaer.com/stutymore/spring-20250716145121.png)
 
 ### 28.说说Spring事务的隔离级别？
 
@@ -2991,7 +2936,6 @@ public void someMethod() {
 
 memo：2025 年 7 月 13 日修改至此，今天在[帮球友修改简历时](https://javabetter.cn/zhishixingqiu/jianli.html)，碰到一个电子科技大学硕士、华中科技大学本的球友，他说到，自己也在推荐星球给师弟们，真的非常欣慰，能有这样的口碑，很感动，必须要感谢球友们的支持。
 
-![球友对星球的口碑](https://cdn.tobebetterjavaer.com/stutymore/spring-20250713101016.png)
 
 ### 29.🌟说说Spring的事务传播机制？
 
@@ -3074,11 +3018,7 @@ public void childMethod() {
 > 4. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的oppo 面经同学 8 后端开发秋招一面面试原题：讲一下Spring事务传播机制
 > 5. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的阿里云面经同学 22 面经：介绍事务传播模型
 
-memo：2025 年 7 月 14 日修改至此，今天在[帮球友修改简历时](https://javabetter.cn/zhishixingqiu/jianli.html)，一个浙江大学硕士的球友不仅拿到了腾讯 WXG 的实习 offer，秋招也开始同步进行了，我只能说优秀的球友真的赶早不赶晚啊！
 
-![浙大硕、WXG 实习开始秋招](https://cdn.tobebetterjavaer.com/stutymore/spring-20250714172641.png)
-
-<MZNXQRcodeBanner />
 
 ## MVC
 
@@ -3118,10 +3058,6 @@ public ServletRegistrationBean<DispatcherServlet> dispatcherServletRegistration(
 ![技术派源码：HandlerExceptionResolver](https://cdn.tobebetterjavaer.com/stutymore/spring-20250717092904.png)
 
 除此之外，还有文件上传解析器 MultipartResolver，用于处理文件上传请求；拦截器 HandlerInterceptor，用于在请求处理前后执行一些额外的逻辑，比如权限校验、日志记录等。
-
-memo：2025 年 7 月 17 日修改至此，昨天[有球友说手写了一个 Redis 的轮子项目](https://t.zsxq.com/LXlx7)，用的 Go 语言，我今天去看了一下 doc 和代码，写得非常好，代码注释很清晰，doc 写得很详细，能看得出球友的用心。手写轮子是非常考验一个人的能力的，我看他实现的功能有：字符串和散列的数据类型、RESP 协议解析器、使用goroutine 来同时处理多个连接、持久化 AOF 协议等，非常强。
-
-![手写 Redis 的球友](https://cdn.tobebetterjavaer.com/stutymore/spring-20250717095915.png)
 
 ### 31.🌟Spring MVC 的工作流程了解吗？
 
@@ -3202,9 +3138,6 @@ public class RequestMappingHandlerAdapter implements HandlerAdapter {
 > 4. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的京东面经同学 8 面试原题：SpringMVC框架 
 > 5. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的字节跳动同学 17 后端技术面试原题：springmvc执行流程
 
-memo：2025 年 7 月 18 日修改至此，今天在[帮球友修改简历时](https://javabetter.cn/zhishixingqiu/jianli.html)，碰到一个荣誉奖项基本拉满的球友，国家励志奖学金、省级比赛、校级三好学生等，那这里也是温馨提醒一下大家，学校的荣誉奖项如果你有能力争取，有时间争取，还是尽量争取一下的，尤其是求职央国企的时候，会非常有用。
-
-![荣誉奖项基本拉满的球友](https://cdn.tobebetterjavaer.com/stutymore/spring-20250718111849.png)
 
 ### 32.SpringMVC Restful 风格的接口流程是什么样的呢？
 
@@ -3226,11 +3159,7 @@ HttpMessageConverter 是实现 RESTful 风格的关键。当 Spring 检测到 `@
 
 总结来说，RESTful 接口的流程通过 `@RestController` 和 HttpMessageConverter “抄了近道”，省略了 ViewResolver 和 View 的渲染过程，直接将数据转换为指定的格式返回，非常适合前后端分离的应用场景。
 
-<MZNXQRcodeBanner />
 
-memo：2025 年 7 月 19 日修改至此，今天有[球友](https://javabetter.cn/zhishixingqiu/)私信我说，拿到了京东的实习 offer，问接下来的秋招该怎么准备？那 7 月份实习 Offer 确实会比较少，但仍然有一部分，如果这个阶段还想要冲实习的话，确实可以捡漏。
-
-![球友拿到京东实习 offer 了](https://cdn.tobebetterjavaer.com/stutymore/spring-20250719103018.png)
 
 ## Spring Boot
 
@@ -3260,9 +3189,6 @@ Spring Boot 的注解很多，我就挑两个说一下吧。
 > 3. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的国企零碎面经同学 9 面试原题：Springboot基于Spring的配置有哪几种
 > 4. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的阿里云面经同学 22 面经：springboot常用注解
 
-memo：2025 年 7 月 20 日修改至此，今天又有[球友](https://javabetter.cn/zhishixingqiu/jianli.html)发私信说，后悔没有早一点加入星球，加入星球后，才发现大家早早就为自己的未来去拼搏了。很真实，好吧，这就是星球的价值所在，100 多块钱的门票就能提供学校几万学费给你不了的东西。
-
-![球友对星球的认可](https://cdn.tobebetterjavaer.com/stutymore/spring-从学校到职场，一般都这样，正常的，想干了，.png)
 
 ### 34.🌟Spring Boot的自动装配原理了解吗？
 
@@ -3331,9 +3257,6 @@ protected AutoConfigurationEntry getAutoConfigurationEntry(AnnotationMetadata an
 > 5. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的百度面经同学 1 文心一言 25 实习 Java 后端面试原题：SpringBoot如何实现自动装配
 > 6. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的 OPPO 面经同学 1 面试原题：自动配置怎么实现的？
 
-memo：2025 年 7 月 21 日修改至此，今天有[球友](https://javabetter.cn/zhishixingqiu/jianli.html)发私信说，拿到了亚信科技+新石器无人车的 offer，问我该如何选择，如果是你，你会如何选择呢？
-
-![亚信科技+新石器无人车的 offer](https://cdn.tobebetterjavaer.com/stutymore/spring-20250726164552.png)
 
 ### 35.🌟如何自定义一个 SpringBoot Starter?
 
@@ -3455,7 +3378,6 @@ com.example.demo.autoconfigure.AnotherAutoConfiguration
 
 memo：2025 年 7 月 22 日修改至此，今天有[球友](https://javabetter.cn/zhishixingqiu/)在 VIP 群里聊天，发现两个人都在小红书，有缘分的很，那能去小红书实习，基本上秋招就算是稳如老狗了😄，这家独角兽的实习含金量还是非常高的。
 
-![在小红书实习的球友真不少](https://cdn.tobebetterjavaer.com/stutymore/spring-20250727165400.png)
 
 ### 36.🌟Spring Boot 启动原理了解吗？
 
@@ -3559,9 +3481,7 @@ Spring Boot 默认的包扫描路径是主类所在的包及其子包。
 > 5. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的京东面经同学 5 Java 后端技术一面面试原题：SpringBoot启动流程（忘了）
 > 6. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的哔哩哔哩同学 1 二面面试原题：springBoot启动机制，启动之后做了哪些步骤
 
-memo：2025 年 8 月 10 日修改至此，今天在[修改球友简历](https://javabetter.cn/zhishixingqiu/jianli.html)的时候，很感动，因为有球友说，他给周围很多人安利了二哥的编程星球，并且反向很不错。真的很感谢，球友们的口碑，没有大家，真走不到现在。
 
-![感谢球友对星球的口碑](https://cdn.tobebetterjavaer.com/stutymore/spring-20250810185253.png)
 
 ### 37.说一下 SpringBoot 和 SpringMVC 的区别？（补充）
 
@@ -3587,9 +3507,7 @@ Spring 项目需要我们手动管理每个 jar 包的版本，经常会遇到�
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的小米同学 F 面试原题：Spring Boot 和 Spring 的区别
 > 2. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的 OPPO 面经同学 1 面试原题：说一下Spring和Springboot之间有什么差异？
 
-memo：2025 年 8 月 11 日修改至此，今天有[球友](https://javabetter.cn/zhishixingqiu/)在 VIP 群里交流说，用二哥的项目，轻松过大厂的简历初筛，包括小米和美团。
 
-![二哥星球的项目，轻松过简历初筛](https://cdn.tobebetterjavaer.com/stutymore/spring-20250811113549.png)
 
 ## Spring Cloud
 
@@ -3622,10 +3540,6 @@ Spring Cloud 其实是一套基于 Spring Boot 的微服务全家桶，帮我们
 ![PmHub 的系统架构图](https://cdn.tobebetterjavaer.com/stutymore/spring-20250812190247.png)
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的比亚迪同学 1 面试原题：SpringCloud 了解多少？
-
-memo：2025 年 8 月 12 日修改至此，今天[帮球友修改简历](https://javabetter.cn/zhishixingqiu/jianli.html)的时候，碰到一个球友说：感谢二哥对我简历的修改，没有二哥绝对进不了字节。看完后真的非常感动，觉得自己做的事情确实有意义。
-
-![球友对二哥简历修改的认可](https://cdn.tobebetterjavaer.com/stutymore/spring-二哥晚上好，谢谢您春招时对我简历的修改，没有二哥我绝对进不了字节。.png)
 
 ## 补充
 
@@ -3702,9 +3616,8 @@ public void shardingJobHandler() throws Exception {
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的微众银行同学 1 Java 后端一面的原题：SpringTask 了解吗？
 > 2. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的阿里面经同学 1 闲鱼后端一面的原题：订单超时，用springtask资源占用太高，有什么其他的方式解决?
 
-memo：2025 年 8 月 16 日修改至此，今天[帮球友修改简历](https://javabetter.cn/zhishixingqiu/jianli.html)的时候，碰到一个球友说：暑期实习的时候使用了[技术派](https://javabetter.cn/zhishixingqiu/paicoding.html)，也找二哥修改了简历，最后拿到了哈啰的实习，非常感谢。那说实话每次碰到球友这样的反馈，都挺开心的。
 
-![帮球友修改简历拿到了哈啰的实习](https://cdn.tobebetterjavaer.com/stutymore/spring-20250816105951.png)
+
 
 ### 41.Spring Cache 了解吗？
 
@@ -3813,81 +3726,3 @@ Spring Cache 的底层是通过 AOP 实现的。当我们在方法上标注了 `
 不管我们使用 Redis、Caffeine 还是其他缓存技术，都需要实现这两个接口。这样 Spring Cache 就能以统一的方式操作不同的缓存实现，实现了很好的解耦。
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的美团同学 9 一面面试原题：介绍一下springcache 和redis？Spring cache和redis之间的各应用在什么场景？有了redis为什么还要用springcahe？springcache 底层原理，基于什么实现的？
-
-memo：今天在给[球友们修改简历](https://javabetter.cn/zhishixingqiu/jianli.html)的时候，有球友说，找实习的时候也找二哥修改了简历，最后也顺利找到了，我很喜欢这种反馈，说明我付出的心血是有回报的，也感谢同学们每一次的口碑。
-
-![球友对简历修改的认可](https://cdn.tobebetterjavaer.com/stutymore/spring-眼看秋招已经开始，打算最近离职了，更新了一版简历，麻烦二哥帮我看看。.png)
-
----
-
-整整两个月，面渣逆袭 Spring 篇第二版终于整理完了，这一版几乎可以说是重写了，每天耗费了大量的精力在上面，可以说是改头换面，有一种士别俩月，当刮目相看的感觉（从 1.3 万字暴涨到 3.4 万字，加餐的同时区分高频低频版）。
-
-![Spring、Redis、MySQL、Java 基础、集合框架、JVM、并发编程](https://cdn.tobebetterjavaer.com/stutymore/spring-20250818102407.png)
-
-网上的八股其实不少，有些还是付费的，我觉得是一件好事，可以给大家提供更多的选择，但面渣逆袭的含金量懂的都懂。
-
-![打印成册，八股全中](https://cdn.tobebetterjavaer.com/stutymore/spring-20250817110926.png)
-
-面渣逆袭第二版是在星球嘉宾三分恶的初版基础上，加入了二哥自己的思考，加入了 1000 多份真实面经之后的结果，并且从 24 届到 25 届，再到 26 届，帮助了很多小伙伴。未来的 27、28 届，也将因此受益，从而拿到心仪的 offer。
-
-能帮助到大家，我很欣慰，并且在重制面渣逆袭的过程中，我也成长了很多，很多薄弱的基础环节都得到了加强，因此第二版的面渣逆袭不只是给大家的礼物，也是我在技术上蜕变的记录。
-
-![球友把面渣逆袭推荐给实验室的所有人](https://cdn.tobebetterjavaer.com/stutymore/mysql-我把你推荐给我们实验室的基本所有人了.png)
-
-
-![学院本拿到滴滴 SP 给面渣口碑+1](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250427104304.png)
-
-
-![市面上的八股看了不少，还是面渣逆袭最舒服](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250427104416.png)
-
-很多时候，我觉得自己是一个佛系的人，不愿意和别人争个高低，也不愿意去刻意宣传自己的作品。
-
-我喜欢静待花开。
-
-如果你觉得面渣逆袭还不错，可以告诉学弟学妹们有这样一份免费的学习资料，帮我做个口碑。
-
-我还会继续优化，也不确定第三版什么时候会来，但我会尽力。
-
-愿大家都有一个光明的未来。
-
-
-由于 PDF 没办法自我更新，所以需要最新版的小伙伴，可以微信搜【**沉默王二**】，或者扫描/长按识别下面的二维码，关注二哥的公众号，回复【**222**】即可拉取最新版本。
-
-<div style="text-align: center; margin: 20px 0;">
-    <img src="https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png" alt="微信扫码或者长按识别，或者微信搜索“沉默王二”" style="max-width: 100%; height: auto;  border-radius: 10px;" />
-</div>
-
-当然了，请允许我的一点点私心，那就是星球的 PDF 版本会比公众号早一个月时间，毕竟星球用户都付费过了，我有必要让他们先享受到一点点福利。相信大家也都能理解，毕竟在线版是免费的，CDN、服务器、域名、OSS 等等都是需要成本的。
-
-更别说我付出的时间和精力了，大家觉得有帮助还请给个口碑，让你身边的同事、同学都能受益到。
-
-![回复 222](https://cdn.tobebetterjavaer.com/stutymore/collection-20250512160410.png)
-
-我把二哥的 Java 进阶之路、JVM 进阶之路、并发编程进阶之路，以及所有面渣逆袭的版本都放进来了，涵盖 Java基础、Java集合、Java并发、JVM、Spring、MyBatis、计算机网络、操作系统、MySQL、Redis、RocketMQ、分布式、微服务、设计模式、Linux 等 16 个大的主题，共有 40 多万字，2000+张手绘图，可以说是诚意满满。
-
-这次仍然是三个版本，亮白、暗黑和 epub 版本。给大家展示其中一个 epub 版本吧，有些小伙伴很急需这个版本，所以也满足大家了。
-
-![面渣逆袭 Spring 篇 epub 版本](https://cdn.tobebetterjavaer.com/stutymore/spring-20250818102519.png)
-
-图文详解 41 道 Spring 面试高频题，这次吊打面试官，我觉得稳了（手动 dog）。整理：沉默王二，戳[转载链接](https://mp.weixin.qq.com/s/EQge6DmgIqYITM3mAxkatg)，作者：三分恶，戳[原文链接](https://mp.weixin.qq.com/s/Y17S85ntHm_MLTZMJdtjQQ)。
-
-_没有什么使我停留——除了目的，纵然岸旁有玫瑰、有绿荫、有宁静的港湾，我是不系之舟_。
-
-**系列内容**：
-
-- [面渣逆袭 Java SE 篇 👍](https://javabetter.cn/sidebar/sanfene/javase.html)
-- [面渣逆袭 Java 集合框架篇 👍](https://javabetter.cn/sidebar/sanfene/javathread.html)
-- [面渣逆袭 Java 并发编程篇 👍](https://javabetter.cn/sidebar/sanfene/collection.html)
-- [面渣逆袭 JVM 篇 👍](https://javabetter.cn/sidebar/sanfene/jvm.html)
-- [面渣逆袭 Spring 篇 👍](https://javabetter.cn/sidebar/sanfene/spring.html)
-- [面渣逆袭 Redis 篇 👍](https://javabetter.cn/sidebar/sanfene/redis.html)
-- [面渣逆袭 MyBatis 篇 👍](https://javabetter.cn/sidebar/sanfene/mybatis.html)
-- [面渣逆袭 MySQL 篇 👍](https://javabetter.cn/sidebar/sanfene/mysql.html)
-- [面渣逆袭操作系统篇 👍](https://javabetter.cn/sidebar/sanfene/os.html)
-- [面渣逆袭计算机网络篇 👍](https://javabetter.cn/sidebar/sanfene/network.html)
-- [面渣逆袭 RocketMQ 篇 👍](https://javabetter.cn/sidebar/sanfene/rocketmq.html)
-- [面渣逆袭分布式篇 👍](https://javabetter.cn/sidebar/sanfene/fenbushi.html)
-- [面渣逆袭微服务篇 👍](https://javabetter.cn/sidebar/sanfene/weifuwu.html)
-- [面渣逆袭设计模式篇 👍](https://javabetter.cn/sidebar/sanfene/shejimoshi.html)
-- [面渣逆袭 Linux 篇 👍](https://javabetter.cn/sidebar/sanfene/linux.html)
-
