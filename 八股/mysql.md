@@ -1014,12 +1014,6 @@ SHOW VARIABLES LIKE 'innodb_buffer_pool_size';
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的美团面经同学 15 点评后端技术面试原题：说说 bufferpool
 
-<MZNXQRcodeBanner />
-
-memo：2025 年 3 月 12 日修改至此。继续给大家一个喜报，今天[有球友报喜](https://javabetter.cn/zhishixingqiu/)说社招拿到了京东和美团的 offer，后续补充说滴滴也过了，我只能说太强了呀。
-
-![今天有球友拿到京东和美团的 offer](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250312172018.png)
-
 ## 日志
 
 ### 28.🌟MySQL 日志文件有哪些？
@@ -5915,7 +5909,7 @@ ANALYZE TABLE table_name;
 
 memo：2025 年 4 月 24 日修改至此，今天有[球友反馈](https://javabetter.cn/zhishixingqiu/)说拿到了小鹏汽车测试岗的 offer，真的恭喜啦🎉。
 
-![球友拿到小鹏汽车的测试 offer](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250424120308.png)
+
 
 ## SQL 题
 
