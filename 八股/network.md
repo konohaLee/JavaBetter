@@ -96,7 +96,6 @@ GitHub 上标星 10000+ 的开源知识库《[二哥的 Java 进阶之路](https
 
 微信搜 **沉默王二** 或扫描下方二维码关注二哥的原创公众号沉默王二，回复 **222** 即可免费领取。
 
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)
 
 ## 网络综合
 
@@ -546,7 +545,6 @@ HTTP 的默认端⼝号是 80，URL 以`http://`开头；HTTPS 的默认端⼝�
 
 memo：2025 年 9 月 03 日修改至此，今天[有球友发私信说](https://javabetter.cn/zhishixingqiu/)拿到了京东的正式批 offer，并且业务看上去很核心，那真的要恭喜🎉啊，你付出多少就会有多少的收获，在没有开花结果之前，就是要坚持，鼓励自己。
 
-![球友拿到京东 offer 了](https://cdn.tobebetterjavaer.com/stutymore/network-二哥，忘了给你报喜了.png)
 
 ### 19.为什么要用 HTTPS？
 
@@ -636,7 +634,6 @@ HTTPS 通过 SSL/TLS 协议确保了客户端与服务器之间交换的数据�
 
 memo：2025 年 9 月 20 日修改至此，[今天有球友发喜报](https://javabetter.cn/zhishixingqiu/)说拿到了美的的 offer，虽然不是大厂，但他自己感觉很开心，并且特意感谢了我对他的鼓励。有了保底也可以无所畏惧的继续向前冲了。
 
-![球友拿到美的的 offer 了](https://cdn.tobebetterjavaer.com/stutymore/network-二哥，今天我收到美的暑期实习的转正了，内容是MCU开发，虽然不是.png)
 
 ### 21.客户端怎么去校验证书的合法性？
 
@@ -753,11 +750,6 @@ HTTP 协议是无状态的，这意味着每个 HTTP 请求都是独立的，服
 - 拼接到 URL 里：直接把 SessionID 作为 URL 的请求参数
 - 放到请求头里：把 SessionID 放到请求的 Header 里，比较常用。
 
-GitHub 上标星 10000+ 的开源知识库《[二哥的 Java 进阶之路](https://github.com/itwanger/toBeBetterJavaer)》第一版 PDF 终于来了！包括 Java 基础语法、数组&字符串、OOP、集合框架、Java IO、异常处理、Java 新特性、网络编程、NIO、并发编程、JVM 等等，共计 32 万余字，500+张手绘图，可以说是通俗易懂、风趣幽默……详情戳：[太赞了，GitHub 上标星 10000+ 的 Java 教程](https://javabetter.cn/overview/)
-
-微信搜 **沉默王二** 或扫描下方二维码关注二哥的原创公众号沉默王二，回复 **222** 即可免费领取。
-
-![](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png)
 
 ## TCP
 
