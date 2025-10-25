@@ -1174,7 +1174,6 @@ after:  id=1, age=26
 
 memo：2025 年 3 月 13 日修改至此。有[球友报喜](httpshttps://javabetter.cn/zhishixingqiu/)，字节二面过了，找暑期顺利的不可思议，八股直接吟唱面渣。
 
-![球友报喜字节二面过了](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250313170334.png)
 
 #### 说说 redo log 的工作机制？
 
@@ -1250,7 +1249,6 @@ WAL 的好处是更新时不直接写数据页，而是先写一份变更记录�
 
 memo：2025 年 3 月 14 日修改至此。今天修改简历的时候，碰到一位比赛经历[非常丰富的球友](https://javabetter.cn/zhishixingqiu/)，大家在校期间如果有时间，也可以冲一下。
 
-![球友的竞赛经历](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250314163859.png)
 
 ### 29.binlog 和 redo log 有什么区别？
 
