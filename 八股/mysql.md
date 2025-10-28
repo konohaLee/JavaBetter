@@ -1679,9 +1679,6 @@ SET GLOBAL long_query_time = 2;
 > 6. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的腾讯面经同学 27 云后台技术一面面试原题：如何优化慢查询语句？
 > 7. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的虾皮面经同学 13 一面面试原题：mysql慢查询
 
-memo：2025 年 3 月 21 日修改至此。今天[有球友报喜](https://javabetter.cn/zhishixingqiu/)说拿到了 wxg 的实习 offer，阿里云和美团也在进行当中，真的 tql。
-
-![球友报喜说拿到了 wxg 的实习 offer](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250321155611.png)
 
 ### 33.🌟你知道哪些方法来优化 SQL？
 
@@ -1803,9 +1800,7 @@ SELECT * FROM user ORDER BY id LIMIT 100000, 10;
 
 数据越多、偏移越大，就越慢！
 
-memo：2025 年 3 月 22 日修改至此。今天[有球友说](https://javabetter.cn/zhishixingqiu/)等腾讯云的 HR 面，很着急，但我赌他一定能拿到 offer，等一个后续哈。
 
-![球友进入腾讯云的 HR 面了](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250322103527.png)
 
 #### JOIN 代替子查询有什么好处？
 
@@ -1891,10 +1886,6 @@ EXPLAIN SELECT o.order_id,
 JOIN 通过 eq_ref 类型直接利用主键（customers.customer_id）快速关联，减少扫描次数。
 
 ----这部分是帮助大家理解 end，面试中可不背----
-
-memo：2025 年 3 月 23 日修改至此，今天[有球友说](https://javabetter.cn/zhishixingqiu/)，通过一晚上的时间，就在星球里学到很多知识，让他这个 7 年经验的 CRUD Boy 受益匪浅。
-
-![球友对星球的一种褒奖](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250323214034.png)
 
 #### JOIN操作为什么要小表驱动大表？
 
@@ -2085,9 +2076,6 @@ SELECT * FROM users WHERE age > last_age ORDER BY age LIMIT 20;  -- 高效（记
 
 ----这部分是帮助大家理解 end，面试中可不背----
 
-memo：2025 年 3 月 26 日修改至此，今天[有球友说](https://javabetter.cn/zhishixingqiu/)，拿到了阿里云的实习 offer，真的 tql。
-
-![球友拿到阿里云的意向书了](https://cdn.tobebetterjavaer.com/stutymore/mysql-阿里云给意向书了.png)
 
 #### 全字段排序和 rowid 排序了解多少？
 
@@ -2154,7 +2142,6 @@ MySQL 在执行排序操作时，会经历两个过程：
 
 memo：2025 年 3 月 27 日修改至此，今天[有球友说](https://javabetter.cn/zhishixingqiu/)，通过了快手二面，并且 HR 面是不排序的，已经确定了入职时间，恭喜啊。
 
-![有球友拿到快手的 offer 了](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250327174927.png)
 
 #### 条件下推你了解多少？
 
@@ -2218,7 +2205,7 @@ ON orders.customer_id = filtered_customers.id;
 
 先过滤 customers 表，减少 join 时的数据量。
 
-#### 为什么要尽量避免使用 select *？
+#### 为什么要尽量避免使用 select 星？
 
 SELECT \* 会强制 MySQL 读取表中所有字段的数据，包括应用程序可能并不需要的，比如 text、blob 类型的大字段。
 
@@ -2269,9 +2256,7 @@ select name from test where create_time>='2021-01-01 00:00:00' and create_t
 
 通过日期的范围查询，而不是在列上使用函数，可以利用 create_time 上的索引。
 
-memo：2025 年 3 月 28 日修改至此，今天[有球友说](https://javabetter.cn/zhishixingqiu/)，字节跳动和腾讯的暑期实习都 OC 了，很感谢当时加了二哥的编程星球，看球友们日常的学习分享，以及二哥推荐的轮子。
 
-![球友字节和腾讯都 OC了](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250328155527.png)
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的腾讯面经同学 22 暑期实习一面面试原题：查询优化、联合索引、覆盖索引
 > 2. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的华为面经同学 8 技术二面面试原题：说说 SQL 该如何优化
@@ -2412,11 +2397,6 @@ ALL 类型表示全表扫描，性能最差，往往不可接受，需要优化�
 > 3. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的同学 1 贝壳找房后端技术一面面试原题：explain分析后， type的执行效率等级，达到什么级别比较合适
 
 <MZNXQRcodeBanner/>
-
-memo：2025 年 3 月 29 日修改至此，今天[有球友说](https://javabetter.cn/zhishixingqiu/)美团的 offer 口头 OC 了，真的太棒了。
-
-![球友美团 offer 口头oc 了](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250329111600.png)
-
 ## 索引
 
 ### 35.🌟索引为什么能提高MySQL查询效率？
@@ -2467,9 +2447,6 @@ create index idx_name on students(name);
 > 6. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的vivo 面经同学 10 技术一面面试原题：索引，为什么使用索引更快
 > 7. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的腾讯面经同学 27 云后台技术一面面试原题：介绍下索引？底层是啥？
 
-memo：2025 年 3 月 30 日修改至此，之前[有球友说](https://javabetter.cn/zhishixingqiu/)拿到了淘天搜索的暑期实习，真的恭喜了。
-
-![球友拿到了淘天的暑期实习](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250330170053.png)
 
 ### 36.🌟能简单说一下索引的分类吗？
 
@@ -2604,9 +2581,6 @@ CREATE UNIQUE INDEX uk_email ON users(email);
 CREATE UNIQUE INDEX uk_user_product ON orders(user_id, product_id) WHERE status = 'unpaid';
 ```
 
-memo：2025 年 3 月 31 日修改至此，今天[有球友说](https://javabetter.cn/zhishixingqiu/)，拿到了淘天暑期实习的 offer，并且再次强调背面渣逆袭的重要性，哈哈。
-
-![球友拿到了淘天的暑期实习 offer](https://cdn.tobebetterjavaer.com/stutymore/mysql-厉害的，恭喜啊.png)
 
 #### 你对全文索引了解多少？
 
@@ -4300,9 +4274,6 @@ COMMIT;
 
 ---- 这部分是帮助大家理解 end，面试中可不背 ----
 
-memo：2025 年 4 月 9 日修改至此，今天有[球友反馈说](https://javabetter.cn/zhishixingqiu/)，拿到了美团的暑期实习 offer，并且特意感谢了面渣逆袭，口碑+1。
-
-![球友拿到了美团的暑期实习 offer](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250409152600.png)
 
 #### 说说记录锁吧？
 
@@ -4460,9 +4431,7 @@ SELECT * FROM users WHERE id = 6 FOR UPDATE;  -- 自动加IX锁和行X锁
 LOCK TABLES users READ;  -- 发现表上有IX锁，与S锁冲突，直接阻塞而无需扫描全表
 ```
 
-memo：2025 年 4 月 11 日修改至此，今天[拿到滴滴 offer 的球友反馈](https://javabetter.cn/zhishixingqiu/)，MQ 部分主要看的面渣逆袭，比较全，这不，口碑就来了。
 
-![球友给面渣逆袭上了口碑](https://cdn.tobebetterjavaer.com/stutymore/mysql-主要我看的几个八股都是结合起来的.png)
 
 ### 58.🌟MySQL的乐观锁和悲观锁了解吗？
 
@@ -4598,9 +4567,8 @@ WHERE id=1 AND update_time=旧时间戳;
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的小公司面经合集同学 1 Java 后端面试原题：乐观锁和悲观锁，库存的超卖问题的原因和解决方案？
 > 2. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的京东面经同学 5 Java 后端技术一面面试原题：乐观锁与悲观锁
 
-memo：2025 年 4 月 12 日修改至此，今天[有球友反馈说](https://javabetter.cn/zhishixingqiu/)，京东进入 HR 面了，但加了一个 VP 级别的面试，副总监，等一手他的好消息。当然了，仍然不忘感谢一下面渣逆袭对他的帮助，哈哈。
 
-![球友进入京东的 HR 面了](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250411101319.png)
+
 
 ### 59.遇到过MySQL死锁问题吗，你是如何解决的？
 
@@ -4893,9 +4861,6 @@ MySQL 的持久性是通过 InnoDB 引擎的 redo log 实现的。在事务提�
 > 8. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的字节跳动同学 17 后端技术面试原题：什么是事务 事务为什么要有隔离级别 幻读是什么 什么时候要解决幻读 什么时候不用解决
 > 9. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的字节跳动面经同学19番茄小说一面面试原题：MySQL中的事务
 
-memo：2025 年 4 月 13 日修改至此，今天给[球友改简历](https://javabetter.cn/zhishixingqiu/)的时候，发现这种彩虹屁真的离谱了，直接配享太庙了，但有一说一这位球友的话是真的甜，简历写的确实也很用心了，确定一个 offer 收割机。
-
-![球友的彩虹屁真的太猛了](https://cdn.tobebetterjavaer.com/stutymore/mysql-二哥您好，麻烦您帮忙改一下简历，二哥真是配享太庙的男人.png)
 
 ### 61.ACID 靠什么保证的呢？
 
@@ -5009,9 +4974,6 @@ COMMIT;
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的美团同学 2 优选物流调度技术 2 面面试原题：MySQL ACID 哪些机制来保证
 > 2. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的百度同学 4 面试原题：事务会不会自动提交?
 
-memo：2025 年 4 月 14 日修改至此，昨天有[球友发帖](https://javabetter.cn/zhishixingqiu/)说拿到了字节、美团的暑期实习 offer，双非本末 9 硕，[全文很硬](https://t.zsxq.com/AC5qq)，强烈推荐大家看看，差不多有 3000 多字，详细剖析了自己的准备过程。
-
-![昨天有球友发帖说拿到了字节、美团的暑期实习 offer](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250414172446.png)
 
 ### 62.🌟事务的隔离级别有哪些？
 
@@ -5139,10 +5101,6 @@ MySQL 支持通过 SET 语句修改事务隔离级别，包括全局级别、当
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的美团面经同学 2 Java 后端技术一面面试原题：说说 MySQL 事务的隔离级别，如何实现？
 > 2. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的得物面经同学 9 面试题目原题：Mysql隔离机制有哪些？怎么实现的？可串行化是怎么避免的三个事务问题？
 > 3. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的滴滴面经同学 3 网约车后端开发一面原题：可重复读级别是怎么实现的
-
-memo：2025 年 4 月 17 日修改至此，今天有[球友发微信](https://javabetter.cn/zhishixingqiu/)说拿到京东的暑期实习 offer，并且今天 VIP 9 群有球友说今天是晒 offer 日，因为 9 群有好几个球友拿到了大厂 offer，后面我再同步给大家。
-
-![球友拿到了京东的暑期实习 offer](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250417215132.png)
 
 ### 64.🌟请详细说说幻读呢？
 
@@ -5372,9 +5330,6 @@ ReadView 是 InnoDB 为每个事务创建的一份“可见性视图”，用于
 
 <MZNXQRcodeBanner />
 
-memo：2025 年 4 月 19 日修改至此，今天有[球友发帖](https://javabetter.cn/zhishixingqiu/)说拿到了拼多多的 offer，这下真的是圆满了。
-
-![球友拿到了拼多多的 offer](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250419164013.png)
 
 ## 高可用
 
@@ -5519,9 +5474,6 @@ plugin-load = "rpl_semi_sync_slave=semisync_slave.so"
 rpl_semi_sync_slave_enabled = 1
 ```
 
-memo：2025 年 4 月 20 日修改至此，今天[给球友修改简历](https://javabetter.cn/zhishixingqiu/jianli.html)时，碰到有球友说，把星球安利给了同门，进来后都说好，口碑+1，很欣慰呢。
-
-![球友已经把星球安利给了同门](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250420170230.png)
 
 ### 70.🌟你们一般是怎么分库的呢？
 
@@ -5624,9 +5576,6 @@ public String getTableNameByHash(long userId) {
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的腾讯面经同学 24 面试原题：项目中的水平分表是怎么做的？分片键具体是怎么设置的？
 > 2. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的腾讯面经同学 29 Java 后端一面原题：分库分表具体的分片策略是怎么做的？
 
-memo：2025 年 4 月 22 日修改至此，今天给[拿到蚂蚁暑期实习的球友](https://javabetter.cn/zhishixingqiu/)发了个红包，感谢他在星球的经验贴，这些精华帖也会帮助到下一届的球友们，真的非常感谢。
-
-![拿到蚂蚁 offer 的球友对星球口碑+1 了](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250422153403.png)
 
 ### 73.不停机扩容怎么实现？
 
@@ -6094,9 +6043,6 @@ CREATE INDEX idx_name_no_index ON test_table_no_index(name);
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的农业银行面经同学 7 Java 后端面试原题：数据库是先建立索引还是先插入数据
 
-memo：2025 年 4 月 25 日修改至此，今天有家长发来感谢信，说孩子在加入[星球](https://javabetter.cn/zhishixingqiu/)后，整个人明显变得更加积极了。说真的，家长的认可，更让我感到虚荣心得到了极大的满足。
-
-![家长对星球的认可](https://cdn.tobebetterjavaer.com/stutymore/mysql-老师您好，今天孩子和我通话语气都精神起来.png)
 
 ### 82.什么是深分页，select \* from tbn limit 1000000000 这个有什么问题，如果表大或者表小分别什么问题
 

@@ -168,10 +168,6 @@ AOP 相关的注解，`@Aspect` 定义切面，`@Pointcut` 定义切点，`@Befo
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的微众银行同学 1 Java 后端一面的原题：说说 Spring 常见的注解？
 
-memo：2025 年 6 月 17 日修改至此，今天在帮[球友们修改简历](https://javabetter.cn/zhishixingqiu/jianli.html)的时候，碰到一个学院本的球友，他的荣誉奖项还是 OK的，态度也非常好，之前有学院本球友拿到滴滴 SP offer 的，希望这位球友也能够成为星球里新的榜样。
-
-![闽江学院的球友](https://cdn.tobebetterjavaer.com/stutymore/spring-20250617111727.png)
-
 ### 4.🌟Spring用了哪些设计模式？
 
 Spring 框架里面确实用了很多设计模式，我从平时工作中能观察到的几个来说说。
@@ -283,10 +279,6 @@ public class QuickForumApplication {
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的去哪儿同学 1 技术二面原题：spring的容器、web容器、springmvc的容器之间的区别
 
-memo：2025 年 6 月 27 日修改至此，今天看到[有球友发的 offer 选择提问贴](https://javabetter.cn/zhishixingqiu/)，其中一个是杭州六小龙群核科技，我个人认为还是非常值得去的，毕竟是杭州的独角兽公司，薪资待遇都不错。
-
-
-
 ### 6.你是怎么理解Bean的？
 
 在我看来，Bean 本质上就是由 Spring 容器管理的 Java 对象，但它和普通的 Java 对象有很大区别。普通的 Java 对象我们是通过 new 关键字创建的。而 Bean 是交给 Spring 容器来管理的，从创建到销毁都由容器负责。
@@ -367,10 +359,6 @@ public class AppConfig {
 ![技术派源码：@Bean](https://cdn.tobebetterjavaer.com/stutymore/spring-20250628114149.png)
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的京东面经同学 9 面试原题：怎么理解spring的bean，@Component 和 @Bean 的区别
-
-memo：2025 年 6 月 28 日修改至此，今天在帮球友[修改简历](https://javabetter.cn/zhishixingqiu/)的时候，又碰到一个杭电本硕的球友。我这里想说的一点是，杭电的计算机专业非常强，虽然他只是一所双非，如果能把项目经历、专业技能好好写的话，拿个大厂的顶级 offer 是完全没问题的。
-
-![杭州电子科技大学本硕的球友](https://cdn.tobebetterjavaer.com/stutymore/spring-计算机科学与技术.png)
 
 ### 7.🌟能说一下Bean的生命周期吗？
 
@@ -1785,8 +1773,6 @@ public class ApplicationContextExample {
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的美团同学 2 优选物流调度技术 2 面面试原题：BeanFactory和ApplicationContext
 
-
-
 ### 19.🌟项目启动时Spring的IoC会做什么？
 
 第一件事是扫描和注册 Bean。IoC 容器会根据我们的配置，比如 `@ComponentScan` 指定的包路径，去扫描所有标注了 `@Component`、`@Service`、`@Controller` 这些注解的类。然后把这些类的元信息包装成 BeanDefinition 对象，注册到容器的 BeanDefinitionRegistry 中。这个阶段只是收集信息，还没有真正创建对象。
@@ -2781,8 +2767,6 @@ public class AccountService {
 > 4. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的虾皮面经同学 13 一面面试原题：spring事务
 > 5. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的阿里云面经同学 22 面经：如何使用spring实现事务
 
-memo：2025 年 7 月 11 日修改至此，今天[有球友在 VIP 群里讲](https://javabetter.cn/zhishixingqiu/)，面渣逆袭的 Redis、MySQL、JVM 篇非常强；另外一个球友也是继续口碑说，面过几次全包过。😄
-
 
 ### 26.声明式事务的实现原理了解吗？
 
@@ -2828,8 +2812,6 @@ public class TransactionInterceptor implements MethodInterceptor {
 最后，无论事务是提交还是回滚，拦截器都会释放数据库连接。
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的京东同学 10 后端实习一面的原题：Spring 事务怎么实现的
-
-memo：2025 年 7 月 15 日修改至此，今天在[给球友修改简历时](https://javabetter.cn/zhishixingqiu/jianli.html)，看到球友说简历修改后拿到了星环科技内推的实习机会，也学到了很多，并且真诚的感谢了 Java 方面的八股面试题对他的帮助。讲真，能看到大家最真实的反馈，我挺开心的。
 
 
 ### 27.@Transactional在哪些情况下会失效？
