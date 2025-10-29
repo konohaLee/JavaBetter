@@ -935,9 +935,6 @@ Spring Boot 的自动装配还有一套更高级的机制，通过 `@EnableAutoC
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的 oppo 面经同学 15 技术面试原题：spring自动装配原理、启动原理，要在启动阶段自定义逻辑该怎么做？
 
-memo：2025 年 7 月 2 日修改至此，今天在[帮球友修改简历](https://javabetter.cn/zhishixingqiu/)的时候，碰到一个北京航空航天大学的球友，他在邮件中说到：在星球里学到了好多东西，目前正在准备[技术派](https://javabetter.cn/zhishixingqiu/paicoding.html)和 MYDB，打算好好冲秋招，能帮助到大家我真的很欣慰。
-
-![北航球友对星球的认可](https://cdn.tobebetterjavaer.com/stutymore/spring-20250702101812.png)
 
 ### 13.什么是循环依赖?
 
