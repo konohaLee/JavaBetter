@@ -1581,7 +1581,7 @@ innodb_io_capacity|	后台刷盘速度|	限制 checkpoint 刷盘压力
 
 memo：2025 年 3 月 20 日修改至此。[有球友](https://javabetter.cn/zhishixingqiu/)报喜说拿到了滴滴的测开实习 offer，恭喜恭喜！
 
-![球友拿到了滴滴的测开实习 offer](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250320163641.png)
+
 
 ## SQL 优化
 

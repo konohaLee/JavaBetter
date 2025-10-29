@@ -3333,7 +3333,7 @@ mystarter.message=javabetter.cn
 
 启动项目，然后在浏览器中输入 `localhost:8081/hello`，就可以看到返回的内容是 `javabetter.cn`，说明我们的自定义 Starter 已经成功工作了。
 
-![二哥的 Java 进阶之路：自定义 Spring Boot Stater](https://cdn.tobebetterjavaer.com/stutymore/spring-20240409114610.png)
+
 
 #### Spring Boot Starter 的原理了解吗？
 

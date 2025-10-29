@@ -1846,9 +1846,6 @@ printf "%x\n" PID
 > 2. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的快手同学 4 一面原题：服务器的CPU占用持续升高，有哪些排查问题的手段？排查后发现是项目产生了内存泄露，如何确定问题出在哪里？
 > 3. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的京东同学 19 JDS 面试原题：如果一个线上服务内存、CPU飙高，或者接口超时，说说大概的排查思路？具体可以用哪些工具？
 
-memo：2025 年 8 月 14 日修改至此。 今天在[帮球友修改简历](https://javabetter.cn/zhishixingqiu/jianli.html)的时候（硬件的简历也可以修改的很好哦），碰到这样一个反馈：专业是硬件方向，也几乎每天看二哥的文章，😄
-
-![硬件人也天天看二哥的文章](https://cdn.tobebetterjavaer.com/stutymore/jvm-20250925185500.png)
 
 ### 42.内存飙高问题怎么排查？
 
