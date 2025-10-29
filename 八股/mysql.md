@@ -2909,9 +2909,6 @@ SELECT user_id, create_time FROM orders WHERE user_id = 100;  -- 覆盖索引生
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的比亚迪面经同学 12 Java 技术面试原题：索引优化的思路
 
-memo：2025 年 4 月 2 日修改至此，今天[有球友说](https://javabetter.cn/zhishixingqiu/)，拿到了百度的实习 offer，仅用了一个月的时间，可太强了。
-
-![球友拿到了百度的实习 offer](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250402160141.png)
 
 ### 41.🌟为什么 InnoDB 要使用 B+树作为索引？
 
@@ -3057,9 +3054,6 @@ MySQL 的查询通常涉及范围（`WHERE id > 100`）、排序（`ORDER BY`）
 > 14. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的得物面经同学 9 面试题目原题：B+树了解吗？底层呢？为什么这么用？
 > 15. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的滴滴面经同学 3 网约车后端开发一面原题：MySQL索引原理，B+树更扁 有什么好处
 
-memo：2025 年 4 月 3 日修改至此，今天[有球友说](https://javabetter.cn/zhishixingqiu/)，拿到了美团的实习 offer，恭喜啊。
-
-![球友收到美团 offer 了](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250403120541.png)
 
 ### 42.🌟一棵B+树能存储多少条数据呢？
 
@@ -3138,9 +3132,7 @@ CREATE TABLE `user` (
 > 4. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的得物面经同学 1 面试原题：MySQL B+树的度数越大越好吗，一般设多少
 > 5. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的腾讯面经同学 29 Java 后端一面原题：InnoDB中一个三层的B+树能存多少数据？每个叶子节点能存放多少条数据？
 
-memo：2025 年 4 月 4 日修改至此，今天[有球友问](https://javabetter.cn/zhishixingqiu/)，有没有英文版的面渣逆袭，他人在国外留学，国外也开始卷八股了吗，真的离谱。
 
-![球友问英文版的面炸逆袭](https://cdn.tobebetterjavaer.com/stutymore/mysql-请问有英文翻译版的吗.png)
 
 ### 43.索引为什么用 B+树不用普通二叉树？
 
@@ -3409,7 +3401,7 @@ idx_age 也是非聚簇索引，叶子节点存的是 age -> id，查整行数�
 
 memo：2025 年 4 月 5 日修改至此，今天[有拿到美团暑期实习的球友说](https://javabetter.cn/zhishixingqiu/)，[简历找二哥修改了两次](https://javabetter.cn/zhishixingqiu/jianli.html)，基本上不卡第一学历的都有面，很棒。
 
-![球友夸二哥的简历修改的好](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250405114505.png)
+
 
 ### 47.🌟回表了解吗？
 
@@ -3587,9 +3579,6 @@ AND order_date BETWEEN '2023-03-01' AND '2023-04-01';"
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的字节跳动面经同学 1 Java 后端技术一面面试原题：使用非聚簇索引如何查找数据？
 > 2. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的字节跳动面经同学 1 技术二面面试原题：回表记录越多好吗？（回表的代价）
 
-memo：2025 年 4 月 6 日修改至此，今天[帮球友修改简历](https://javabetter.cn/zhishixingqiu/jianli.html)的时候，看到有球友写[技术派](https://javabetter.cn/zhishixingqiu/paicoding.html)到简历上，很不错，推荐给大家。
-
-![技术派如何写到简历上模板](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250406142139.png)
 
 ### 48.🌟联合索引了解吗？（补充）
 
@@ -3640,9 +3629,6 @@ ORDER BY create_time DESC
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的百度同学 4 面试原题：联合索引底层存储结构(和其他种类的索引存储结构有什么区别?)联合索引的叶子节点存的什么内容?
 
-memo：2025 年 04 月 07 日增补至此，今天[有球友反馈](https://javabetter.cn/zhishixingqiu/)说，加了二哥的星球，简历上写了技术派的项目后，拿到了腾讯天美的 offer，真的太强了。
-
-![球友拿到了腾讯天美的后台开发 offer](https://cdn.tobebetterjavaer.com/stutymore/mysql-20250408105425.png)
 
 ### 49.🌟覆盖索引了解吗？
 
@@ -4391,9 +4377,6 @@ SELECT * FROM table WHERE id BETWEEN 5 AND 10 FOR UPDATE;
 
 MySQL 默认的行锁类型就是临键锁。当使用唯一索引的等值查询匹配到一条记录时，临键锁会退化成记录锁；如果没有匹配到任何记录，会退化成间隙锁。
 
-memo：2025 年 4 月 10 日修改至此，今天[有学院本的球友反馈说](https://javabetter.cn/zhishixingqiu/)，拿到了滴滴的 sp offer，真的无敌啊，太能卷了。
-
-![球友学院本拿到了滴滴的 SP](https://cdn.tobebetterjavaer.com/stutymore/mysql-等一手经验贴分享，发个红包，哈哈.png)
 
 ### 57.意向锁是什么知道吗？
 
