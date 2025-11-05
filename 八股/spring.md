@@ -1854,8 +1854,9 @@ Spring 在实例化的时候会根据 Bean 的定义自动选择合适的方式�
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的华为面经同学 8 技术二面面试原题：说说 Spring 的 Bean 实例化方式
 > 2. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的美团同学 2 优选物流调度技术 2 面面试原题：bean加工有哪些方法？
 
-
-
+#### beanfactory和factorybean区别
+BeanFactory和FactoryBean虽然名字看起来像，但其实是两个完全不同的概念，用途也不一样。 简单说，BeanFactory是Spring的核心接口，它是个“工厂”，负责管理Spring容器里所有的Bean，比如创建、获取、初始化这些操作。我们常用的ApplicationContext其实就是BeanFactory的子类，它扩展了更多功能，但底层还是依赖BeanFactory的核心能力。比如我们调用getBean()方法获取Bean，就是在跟BeanFactory打交道。 
+而FactoryBean呢，它是个“Bean”，不过是个特殊的Bean——它是用来创建其他Bean的工厂Bean。当我们定义一个类实现FactoryBean接口后，Spring容器不会直接把这个类的实例当作Bean，而是会调用它的getObject()方法，把这个方法返回的对象作为实际的Bean。这种情况适合那些创建过程比较复杂的Bean，比如需要很多配置或者依赖的对象，用FactoryBean可以封装创建逻辑，让配置更简洁。 举个例子，MyBatis里的SqlSessionFactoryBean就是典型的FactoryBean，我们配置它之后，Spring实际给我们的是它通过getObject()生成的SqlSessionFactory对象，而不是SqlSessionFactoryBean本身。 总结的话，BeanFactory是容器的顶层接口，管理所有Bean的生命周期；FactoryBean是个特殊Bean，用于定制化创建其他Bean的过程。
 ## AOP
 
 ### 20.🌟说说什么是 AOP？
