@@ -2092,7 +2092,6 @@ DriverManager 使用了线程上下文类加载器来加载 SPI 的实现类，�
 
 memo：2025 年 8 月 16 日修改至此。今天在[帮球友修改简历](https://javabetter.cn/zhishixingqiu/jianli.html)的时候，收到这样一个反馈：暑期实习的时候用了[技术派](https://javabetter.cn/zhishixingqiu/paicoding.html)，也找我修改了简历，最后也顺利拿到了哈啰实习，非常感谢。
 
-![拿到了哈啰实习](https://cdn.tobebetterjavaer.com/stutymore/jvm-20250924162337.png)
 
 ### 52.Tomcat 的类加载机制了解吗？
 
@@ -2246,63 +2245,6 @@ Java 一般被称为“解释型语言”，因为 Java 代码在执行前，需
 ![图片来源于美团技术博客](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/jvm/jit-9a62fc02-1a6a-451e-bb2b-19fc086d5be0.png)
 
 > 1. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的腾讯 Java 后端实习一面原题：说说 Java 解释执行的流程。
-
-memo：2025 年 1 月 21 日修改至此。
-
----
-
-面渣逆袭 JVM 篇第二版终于整理完了，说一点心里话。
-
-![Java 基础篇、集合框架篇、JVM 篇](https://cdn.tobebetterjavaer.com/stutymore/jvm-20250121141939.png)
-
-网上的八股其实不少，这样可以给大家提供更多的选择，但面渣逆袭的含金量懂的都懂。
-
-![球友开始面试后的感慨](https://cdn.tobebetterjavaer.com/stutymore/jvm-20250118111727.png)
-
-面渣逆袭第二版是在星球嘉宾三分恶的初版基础上，加入了二哥自己的思考，加入了 1000 多份真实面经之后的结果，并且从从 24 届到 25 届，帮助了很多小伙伴。未来的 26、27 届，也将因此受益，从而拿到心仪的 offer。
-
-能帮助到大家，我很欣慰，并且在重制面渣逆袭的过程中，我也成长了很多，很多薄弱的基础环节都得到了加强。
-
-![这是我在牛客上看到的](https://cdn.tobebetterjavaer.com/stutymore/javase-20241230165717.png)
-
-![我觉得都是蛮中肯的评价](https://cdn.tobebetterjavaer.com/stutymore/javase-20241230165749.png)
-
-![双非硕测开对二哥八股的认可](https://cdn.tobebetterjavaer.com/stutymore/collection-20250108181632.png)
-
-很多时候，我觉得自己是一个佛系的人，不愿意和别人争个高低，也不愿意去刻意宣传自己的作品。
-
-我喜欢静待花开。
-
-如果你觉得面渣逆袭还不错，可以告诉学弟学妹们有这样一份免费的学习资料，帮我做个口碑。
-
-我还会继续优化，也不确定第三版什么时候会来，但我会尽力。
-
-愿大家都有一个光明的未来。
-
-这次仍然是三个版本，亮白、暗黑和 epub 版本。给大家展示其中一个 epub 版本吧，有些小伙伴很急需这个版本，所以也满足大家了。
-
-
-![面渣逆袭JVM篇：epub 版本](https://cdn.tobebetterjavaer.com/stutymore/jvm-20250121142044.png)
-
-由于 PDF 没办法自我更新，所以需要最新版的小伙伴，可以微信搜【**沉默王二**】，或者扫描/长按识别下面的二维码，关注二哥的公众号，回复【**222**】即可拉取最新版本。
-
-<div style="text-align: center; margin: 20px 0;">
-    <img src="https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/gongzhonghao.png" alt="微信扫码或者长按识别，或者微信搜索“沉默王二”" style="max-width: 100%; height: auto;  border-radius: 10px;" />
-</div>
-
-当然了，请允许我的一点点私心，那就是星球的 PDF 版本会比公众号早一个月时间，毕竟星球用户都付费过了，我有必要让他们先享受到一点点福利。相信大家也都能理解，毕竟在线版是免费的，CDN、服务器、域名、OSS 等等都是需要成本的。
-
-更别说我付出的时间和精力了，大家觉得有帮助还请给个口碑，让你身边的同事、同学都能受益到。
-
-![回复 222](https://cdn.tobebetterjavaer.com/stutymore/collection-20250512160410.png)
-
-我把二哥的 Java 进阶之路、JVM 进阶之路、并发编程进阶之路，以及所有面渣逆袭的版本都放进来了，涵盖 Java基础、Java集合、Java并发、JVM、Spring、MyBatis、计算机网络、操作系统、MySQL、Redis、RocketMQ、分布式、微服务、设计模式、Linux 等 16 个大的主题，共有 40 多万字，2000+张手绘图，可以说是诚意满满。
-
----
-
-图文详解 54 道 Java 虚拟机高频面试题，这次面试，一定吊打面试官，整理：沉默王二，戳[转载链接](https://mp.weixin.qq.com/s/bHhqhl8mH3OAPt3EkaVc8Q)，作者：三分恶，戳[原文链接](https://mp.weixin.qq.com/s/XYsEJyIo46jXhHE1sOR_0Q)。
-
-_没有什么使我停留——除了目的，纵然岸旁有玫瑰、有绿荫、有宁静的港湾，我是不系之舟_。
 
 **系列内容**：
 
