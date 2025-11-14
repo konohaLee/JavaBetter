@@ -1335,8 +1335,6 @@ XID 是 binlog 中用来标识事务提交的唯一标识符。
 
 XID 可以帮助 MySQL 判断哪些 redo log 是已提交的，哪些是未提交需要回滚的，是两阶段提交机制中非常关键的一环。
 
-memo：2025 年 3 月 16 日修改至此。
-
 ### 31.🌟redo log 的写入过程了解吗？
 
 InnoDB 会先将 Redo Log 写入内存中的 Redo Log Buffer，之后再以一定的频率刷入到磁盘的 Redo Log File 中。
