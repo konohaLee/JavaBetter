@@ -138,9 +138,7 @@ Caffeine 通常用来作为二级缓存来使用，主要用于存储一些不�
 > 12. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的华为 OD 面经同学 1 一面面试原题：Redis 的了解, 部署方案?
 > 13. [Java 面试指南（付费）](https://javabetter.cn/zhishixingqiu/mianshi.html)收录的同学 30 腾讯音乐面试原题：redis的部署方式都有哪些呢，各自有什么优缺点？
 
-memo：2025 年 9 月 23 日修改至此，今天[帮球友修改简历](https://javabetter.cn/zhishixingqiu/jianli.html)的时候，收到一位球友的反馈说，从 8.16 加入星球以来，每天都在星球里充电学习，学到了很多东西。对于这种正反馈我是非常开心的。
 
-![球友对星球的认可](https://cdn.tobebetterjavaer.com/stutymore/redis-M8.16加入星球以来，每天都在星球充电学习，学到了很多东西，也祝二哥的星球越办越好！.png)
 
 ### 2.Redis 可以用来干什么？
 
